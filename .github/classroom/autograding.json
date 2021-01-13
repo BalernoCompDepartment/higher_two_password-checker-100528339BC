@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "valid",
+      "setup": "javac *.java",
+      "run": "java Main",
+      "input": "*apasswordI",
+      "output": "meets the strength requirements",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
